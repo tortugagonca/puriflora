@@ -1,22 +1,55 @@
-body{
-	margin: 0 auto;
-	background-color: #458945;
+body {
+    margin: 0 auto;
+    background-color: #458945;
 }
-h1{
-	font-size: 0px;
+
+h1 {
+    font-size: 0px;
 }
-.container{
-	max-width: 968px;
+
+.container {
+    max-width: 968px;
 }
-.container-fluid{
-	width: 100%;	
+
+.container-fluid {
+    width: 100%;
 }
-.container-footer{
-	width: 100%;
+
+.container-footer {
+    width: 100%;
 }
 
 /* -------------- ROW1/PAGE HOME -----------*/
 
-.container-fluid img{
-	width: 100%
+.container-fluid img {
+    width: 100%;
+}
+dores-que-alivia {
+    color: #56AA2F;
+}
+
+perguntas-frequentes {
+    color: #158C43;
+}
+
+composicao {
+    color: #56AA2F;
+}
+imagens-dores-que-alivia{
+    color:#158C43;
+}
+
+btn-comprar {
+    color: #158C43;
+}
+
+fundo-banner-infos {
+    color: #F2F1F1;
+}
+
+fundo-redes-sociais {
+   color: #0F6837;
+}
+fundo-copyright {
+   color: #158C43;
 }
