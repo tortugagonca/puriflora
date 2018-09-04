@@ -15,6 +15,17 @@ h1{
 	width: 100%;
 }
 
+.img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dores-text {
+    text-align: center;
+    color: #56aa2f;
+}
 /* -------------- ROW1/PAGE HOME -----------*/
 
 .container-fluid img{
