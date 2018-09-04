@@ -21,11 +21,98 @@ h1 {
 
 .img {
     max-width: 100%;
-    height: auto; 
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+.img-composicao {
+    max-width: 100%;
+    height: auto;
+}
+
+.message {
+    color: #000;
+    clear: both;
+    line-height: 18px;
+    font-size: 15px;
+    padding: 8px;
+    position: relative;
+    margin: 8px 0;
+    max-width: 85%;
+    word-wrap: break-word;
+    z-index: -1;
+}
+
+    .message:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+.metadata {
+    display: inline-block;
+    float: right;
+    padding: 0 0 0 7px;
+    position: relative;
+    bottom: -4px;
+}
+
+
+    .metadata .tick {
+        display: inline-block;
+        margin-left: 2px;
+        position: relative;
+        top: 4px;
+        height: 16px;
+        width: 16px;
+    }
+
+        .metadata .tick svg {
+            position: absolute;
+            transition: .5s ease-in-out;
+        }
+
+            .metadata .tick svg:first-child {
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                -webkit-transform: perspective(800px) rotateY(180deg);
+                transform: perspective(800px) rotateY(180deg);
+            }
+
+            .metadata .tick svg:last-child {
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                -webkit-transform: perspective(800px) rotateY(0deg);
+                transform: perspective(800px) rotateY(0deg);
+            }
+
+    .metadata .tick-animation svg:first-child {
+        -webkit-transform: perspective(800px) rotateY(0);
+        transform: perspective(800px) rotateY(0);
+    }
+
+    .metadata .tick-animation svg:last-child {
+        -webkit-transform: perspective(800px) rotateY(-179.9deg);
+        transform: perspective(800px) rotateY(-179.9deg);
+    }
+.message.sent {
+    background: #e1ffc7;
+    border-radius: 5px 0px 5px 5px;
+    float: right;
+}
+
+    .message.sent:after {
+        border-width: 0px 0 10px 10px;
+        border-color: transparent transparent transparent #e1ffc7;
+        top: 0;
+        right: -10px;
+    }
+
+
 .dores-text {
     text-align: center;
     color: #56aa2f;
@@ -35,32 +122,35 @@ h1 {
 .container-fluid img {
     width: 100%;
 }
+
 dores-que-alivia {
     color: #56AA2F;
 }
 
-perguntas-frequentes {
+.perguntas-frequentes {
     color: #158C43;
 }
 
-composicao {
+.composicao {
     color: #56AA2F;
 }
-imagens-dores-que-alivia{
-    color:#158C43;
-}
 
-btn-comprar {
+.elemento-composicao {
     color: #158C43;
 }
 
-fundo-banner-infos {
+.btn-comprar {
+    border-color: #158C43;
+}
+
+.fundo-banner-infos {
     color: #F2F1F1;
 }
 
-fundo-redes-sociais {
-   color: #0F6837;
+.fundo-redes-sociais {
+    color: #0F6837;
 }
-fundo-copyright {
-   color: #158C43;
+
+.fundo-copyright {
+    color: #158C43;
 }
