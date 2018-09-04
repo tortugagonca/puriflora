@@ -14,7 +14,13 @@ h1 {
 .container-fluid {
     width: 100%;
 }
-
+.texto-centralizado {
+    text-align: center;
+}
+.header {
+    background-image: url("images/idosos.png");
+    background-color: #cccccc;
+}
 .container-footer {
     width: 100%;
 }
@@ -129,6 +135,8 @@ dores-que-alivia {
 
 .perguntas-frequentes {
     color: #158C43;
+    background-image: url("images/floresfundo2.png");
+    background-color: #cccccc;
 }
 
 .composicao {
