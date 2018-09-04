@@ -1,0 +1,22 @@
+body{
+	margin: 0 auto;
+	background-color: #458945;
+}
+h1{
+	font-size: 0px;
+}
+.container{
+	max-width: 968px;
+}
+.container-fluid{
+	width: 100%;	
+}
+.container-footer{
+	width: 100%;
+}
+
+/* -------------- ROW1/PAGE HOME -----------*/
+
+.container-fluid img{
+	width: 100%
+}
