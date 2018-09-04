@@ -17,13 +17,18 @@ h1 {
 .texto-centralizado {
     text-align: center;
 }
-.header {
-    background-image: url("images/idosos.png");
-    background-color: #cccccc;
-}
-.container-footer {
-    width: 100%;
-}
+    .texto-centralizado.header {
+        /*max-width: 100%;
+        display: flex;
+        height: 614px;
+        margin-left: auto;
+        margin-right: auto;*/
+        display: inline-block;
+        position: absolute;
+    }
+    .container-footer {
+        width: 100%;
+    }
 
 .img {
     max-width: 100%;
@@ -32,7 +37,12 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-
+    .img.header {
+        background-image: url("images/alongando.jpg");
+        background-color: #cccccc;
+        height: 614px;
+        background-repeat: no-repeat;
+    }
 .img-composicao {
     max-width: 100%;
     height: auto;
