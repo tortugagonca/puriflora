@@ -17,14 +17,13 @@ h1 {
 .texto-centralizado {
     text-align: center;
 }
+
     .texto-centralizado.header {
-        /*max-width: 100%;
-        display: flex;
-        height: 614px;
         margin-left: auto;
-        margin-right: auto;*/
+        margin-right: auto;
         display: inline-block;
-        position: absolute;
+        color: #000;
+        font-size: 22px;
     }
     .container-footer {
         width: 100%;
@@ -142,13 +141,20 @@ h1 {
 dores-que-alivia {
     color: #56AA2F;
 }
-
+.faixa-marketing-bg {
+   background-color: #00ff21;
+}
+.faixa-marketing-txt {
+    color: #ffffff;
+}
 .perguntas-frequentes {
     color: #158C43;
     background-image: url("images/floresfundo2.png");
     background-color: #cccccc;
 }
-
+.perguntas{
+    font-family: 'Gotham Pro';
+}
 .composicao {
     color: #56AA2F;
 }
@@ -157,8 +163,10 @@ dores-que-alivia {
     color: #158C43;
 }
 
-.btn-comprar {
+.btn .btn-comprar {
     border-color: #158C43;
+    background-color: transparent;
+    border-radius: 2px;
 }
 
 .fundo-banner-infos {
